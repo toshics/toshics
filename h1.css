@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+
+html,
+body {
+        height: 100%;
+}
+
+.greetings,
+p,
+h1{
+    font-family: 'PT Serif: ital', serif;
+}
+h2 {
+    font-family: 'PT Serif: ital', serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: cornflowerblue;
+    padding: 5px;
+    height: 100%;
+    border-radius: 25px;
+    box-shadow: 0px 4px 5px 3px black;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 25%;
+    margin-bottom: 1em;
+    background-color: blueviolet;
+    border-radius: 25px;
+    box-shadow: 0px 0px 30px 6px black;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-family: 'PT Serif: ital';
+    font-size: 2rem;
+    color: beige;
+    font-weight: 800;
+    text-shadow: 1px 2px 3px black;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    text-shadow: 1px 2px 3px black;
+    font-family: 'PT Serif: ital';
+}
+
+.data {
+    display: flex;
+    align-items: right;
+}
+.fullname {
+    font-family: 'PT Serif: ital';
+    margin-right: auto;
+    flex-basis: auto;
+    text-shadow: 1px 2px 3px black;
+}
+
+.myImg {
+    width: 750;
+    height: 520;
+    margin-top: 15px;
+    padding-left: 2px;
+    flex-basis: 750px;
+            }
+
+.knowledge {
+    display: flex;
+    justify-content: center;
+}
+
+.article {
+    margin-top: 0em;
+}
+
+p {
+    font-size: 2rem;
+    color: beige;
+    padding-left: 30px;
+}
+
+.text {
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+
+}
+
+h2 {
+    text-align: center;
+    color: beige;
+    text-shadow: 1px 2px 3px black;
+}
+
+
+h1 {
+    color: beige;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.footer {
+    background-color: blueviolet;
+    flex: 0 0 auto;
+    border-radius: 25px;
+    box-shadow: 0px 0px 30px 6px black;
+}
